@@ -12,6 +12,7 @@ function wrapAdjective(flair="*"){
     return "You are "+flair+adj+flair+"!";
   };
 }
+<<<<<<< HEAD
 let Calculator={add:function(n1,n2){return n1+n2},subtract:function(n1,n2){return n1-n2},multiply:function(n1,n2){return n1*n2},divide:function(n1,n2){return n1/n2}};
 
 arrayOfTransforms = [
@@ -27,3 +28,6 @@ for(let i=0;i<array.length;i++){
 return k;
 }
 
+=======
+let encouragingPromptFunction = wrapAdjective("!!!")
+>>>>>>> d0791a9e623e83a4a6ff401ba340810ee69c9585
